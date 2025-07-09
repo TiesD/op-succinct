@@ -49,13 +49,6 @@ const PRECOMPILES: &[(PrecompileWithAddress, PrecompileWithAddress)] = &[
         revm::precompile::secp256r1::P256VERIFY,
         create_annotated_precompile!(revm::precompile::secp256r1::P256VERIFY, "p256-verify"),
     ),
-    (
-        revm::precompile::kzg_point_evaluation::POINT_EVALUATION,
-        create_annotated_precompile!(
-            revm::precompile::kzg_point_evaluation::POINT_EVALUATION,
-            "kzg-eval"
-        ),
-    ),
 ];
 
 /// The ZKVM-cycle-tracking precompiles.
