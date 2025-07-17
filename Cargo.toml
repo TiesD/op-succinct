@@ -93,10 +93,10 @@ kona-genesis = { git = "https://github.com/op-rs/kona", tag = "kona-client/v1.0.
 
 # hana
 # TODO(fakedev9999): Bump to 1.0.0 once the release is out.
-hana-blobstream = { git = "https://github.com/celestiaorg/hana", rev = "ebb7cf711c3f2eba951f3fb3211c1cb1f87475dc" }
-hana-celestia = { git = "https://github.com/celestiaorg/hana", rev = "ebb7cf711c3f2eba951f3fb3211c1cb1f87475dc" }
-hana-host = { git = "https://github.com/celestiaorg/hana", rev = "ebb7cf711c3f2eba951f3fb3211c1cb1f87475dc" }
-hana-oracle = { git = "https://github.com/celestiaorg/hana", rev = "ebb7cf711c3f2eba951f3fb3211c1cb1f87475dc" }
+hana-blobstream = { git = "https://github.com/celestiaorg/hana", tag = "v0.1.0-beta.16" }
+hana-celestia = { git = "https://github.com/celestiaorg/hana", tag = "v0.1.0-beta.16" }
+hana-host = { git = "https://github.com/celestiaorg/hana", tag = "v0.1.0-beta.16" }
+hana-oracle = { git = "https://github.com/celestiaorg/hana", tag = "v0.1.0-beta.16" }
 
 # op-succinct
 op-succinct-prove = { path = "scripts/prove" }
