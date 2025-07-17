@@ -277,10 +277,10 @@ where
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    setup_logger();
-
     let args = Args::parse();
     dotenv::from_filename(args.env_file).ok();
+
+    setup_logger();
 
     let challenger_signer = Signer::from_env()?;
 
